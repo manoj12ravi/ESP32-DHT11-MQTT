@@ -7,7 +7,7 @@
 // --------------------------------------------------------------------------------------------
 
 // MQTT connection details
-#define MQTT_HOST "broker.mqtt.cool"
+#define MQTT_HOST "test.mosquitto.org"
 #define MQTT_PORT 1883
 #define MQTT_DEVICEID "esp32-manoj"
 #define MQTT_USER "" // no need for authentication, for now
