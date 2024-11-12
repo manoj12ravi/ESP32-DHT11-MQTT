@@ -31,7 +31,7 @@ This project demonstrates how to use an ESP32 microcontroller to:
 - ESP32 Microcontroller
 - DHT11 Temperature and Humidity Sensor
 - RGB LED
-- MQTT Broker (e.g., broker.mqtt.cool)
+- MQTT Broker (e.g., test.mosquitto.org)
 
 ## Prerequisites
 
@@ -56,7 +56,7 @@ char pass[] = "your-password";
 
 Update the MQTT broker details:
 
-#define MQTT_HOST "broker.mqtt.cool"
+#define MQTT_HOST "test.mosquitto.org"
 
 #define MQTT_PORT 1883
 
