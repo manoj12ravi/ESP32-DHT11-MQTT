@@ -1,14 +1,16 @@
-ESP32 MQTT DHT11 Project
+## ESP32 MQTT DHT11 Project
+---------------------
 This project demonstrates how to use an ESP32 microcontroller to:
 
-Read temperature and humidity data from a DHT11 sensor.
-Publish sensor data to an MQTT broker.
-Control an RGB LED via MQTT messages.
-Table of Contents
-Features
-Components
-Prerequisites
-Configuration
+- Read temperature and humidity data from a DHT11 sensor.
+- Publish sensor data to an MQTT broker.
+- Control an RGB LED via MQTT messages.
+--------------------
+## Table of Contents
+- Features
+- Components
+- Prerequisites
+- Configuration
 WiFi Credentials
 MQTT Broker Settings
 Pin Configuration
@@ -39,26 +41,23 @@ WiFi.h
 DHT.h
 PubSubClient.h
 An active MQTT broker.
-Configuration
-1. WiFi Credentials
+## Configuration
+
+# 1. WiFi Credentials
 Update your WiFi SSID and password in the code:
 
-cpp
-Copy code
 char ssid[] = "your-SSID";
 char pass[] = "your-password";
-2. MQTT Broker Settings
+
+# 2. MQTT Broker Settings
 Update the MQTT broker details:
 
-cpp
-Copy code
 #define MQTT_HOST "broker.mqtt.cool"
 #define MQTT_PORT 1883
-3. Pin Configuration
+
+# 3. Pin Configuration
 Update the pin configurations for the RGB LED and DHT11 sensor:
 
-cpp
-Copy code
 #define RED_PIN 19
 #define GREEN_PIN 18
 #define BLUE_PIN 17
